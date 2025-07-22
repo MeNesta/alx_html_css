@@ -33,7 +33,7 @@ aside {
 header,
 footer {
   background-color: #dedbdb;
-  color: white;
+  color: rgb(27, 26, 26);
   padding: 1em;
   text-align: center;
 }
