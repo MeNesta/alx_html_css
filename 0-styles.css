@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("images/headphones_hero_1.jpg");
+  font-family:'';
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+  float: left;
+  margin: 10px;
+  margin-right:auto;
+  margin-left: 200px;
+}
+ 
+ /* Main content - centered */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.main-title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 350px;
+  font-size: 60px;
+  margin-right: 30px;
+  margin-left: 100px;
+  font-family:source-sans-pro;
+}
+
+
+.subtitle{
+    color: white;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 100px;
+    font-family:source-sans-pro;
+    font-weight: 100;
+}
+.description {
+    color: white;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 100px;
+    font-family:source-sans-pro;
+    font-weight: 100;
+}
+
+ .cta-button {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+            margin-right: 30px;
+            margin-top: 30px;
+            margin-left: 100px;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(231, 76, 60, 0.4);
+            background: linear-gradient(45deg, #c0392b, #a93226);
+        }
+
+        .cta-button:active {
+            transform: translateY(0);
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+            float: right;
+            margin: 20px;
+            margin-right: 100px;
+            font-family:source-sans-pro;
+        }
+
+        .nav-menu a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            font-size: 15px;
+            letter-spacing: 0px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-menu a:hover {
+            color: orangered;
+        }
+
+      .Headphones { 
+        width: 34px;
+        height: 34px;
+        float: left;
+        margin: 20px;
+        margin-right:auto;
+        margin-left: 10px;
+        color: white;
+        font-size: 150%;
+        font-family:spin-cycle;
+}
+ @font-face {
+    font-family: 'source-sans-pro';
+    src: url('/source-sans-pro/SourceSansPro-Bold.otf') format('woff2'),
+         url('/source-sans-pro/SourceSansPro-Regular.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Improves loading performance */
+}
+
+@font-face {
+    font-family: 'Spin-cycle';
+    src: url('/Spin-Cycle-OT/spincycle_3d_ot.otf') format('woff2'),
+         url('/Spin-Cycle-OT/spincycle_ot.otf') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
