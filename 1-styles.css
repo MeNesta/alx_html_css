@@ -53,6 +53,7 @@
             padding: 30px 20px;
             border-radius: 8px;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            size: 30px;
         }
 
         .service-item:hover {
